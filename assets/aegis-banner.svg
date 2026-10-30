@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="AEGIS autonomous security AI platform - in development">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081525"/><stop offset=".55" stop-color="#101F36"/><stop offset="1" stop-color="#092A2E"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#72E5CF"/><stop offset="1" stop-color="#8EBBFF"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#32D4AF" stop-opacity=".28"/><stop offset="1" stop-color="#32D4AF" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#A6D1DB" stroke-opacity=".08" stroke-width="1"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="390" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="390" rx="22" fill="url(#grid)"/>
+<ellipse cx="1020" cy="178" rx="300" ry="235" fill="url(#glow)"/>
+<path d="M56 49h48" stroke="#6DE6D0" stroke-width="3" stroke-linecap="round"/>
+<circle cx="65" cy="67" r="4" fill="#6DE6D0"/>
+<text x="82" y="72" fill="#A9C6D2" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="3">SECURITY INTELLIGENCE / LAB</text>
+<text x="56" y="195" fill="#F2FBFF" font-family="Arial,Helvetica,sans-serif" font-size="111" font-weight="800" letter-spacing="8">AEGIS</text>
+<rect x="57" y="215" width="357" height="4" rx="2" fill="url(#accent)"/>
+<text x="57" y="259" fill="#C8DDE7" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="2">AUTONOMOUS SECURITY AI PLATFORM</text>
+<text x="57" y="302" fill="#85C8C6" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="1">LOCAL MODELS  /  GUARDED EXECUTION  /  VERIFIED EVIDENCE</text>
+<rect x="57" y="331" width="177" height="31" rx="15" fill="#1E564E" stroke="#49C9AD" stroke-opacity=".6"/>
+<circle cx="77" cy="347" r="5" fill="#70E5CA"/>
+<text x="91" y="352" fill="#B7FFED" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1">IN DEVELOPMENT</text>
+<!-- abstract protected workflow seal -->
+<g transform="translate(988 181)">
+  <circle r="139" stroke="#8CDAE6" stroke-opacity=".12" stroke-width="1.5" fill="none"/>
+  <circle r="112" stroke="#80C7DD" stroke-opacity=".20" stroke-width="1.5" stroke-dasharray="3 8" fill="none"/>
+  <circle r="86" fill="#0B3340" fill-opacity=".62" stroke="#6DE6D0" stroke-opacity=".65" stroke-width="1.8"/>
+  <path d="M0 -61L53 -36V9C53 48 20 68 0 79C-20 68 -53 48 -53 9V-36Z" fill="#2C9F99" fill-opacity=".16" stroke="url(#accent)" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M-25 5L-6 25L34 -19" fill="none" stroke="#88F2DE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#67DDCC"><circle cx="0" cy="-112" r="6"/><circle cx="112" cy="0" r="6"/><circle cx="0" cy="112" r="6"/><circle cx="-112" cy="0" r="6"/></g>
+  <path d="M-112 0h-55m279 0h55M0-112v-42M0 112v42" stroke="#75D6CD" stroke-width="2" opacity=".4"/>
+</g>
+</svg>
