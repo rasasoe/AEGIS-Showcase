@@ -13,6 +13,20 @@
 
 ---
 
+## Timeline and what this project is meant to prove
+
+**Status:** In progress · **documented public development/verification activity:** October 2026–present (not a verified original start date).
+
+The central question is not whether an AI can call a tool, but whether it can be **prevented from acting outside an approved scope**, **stopped at the actual running-task level**, and required to **link conclusions to verifiable tool/HTTP evidence**.
+
+| Validation question | Evidence boundary |
+| --- | --- |
+| Can unapproved targets and tools be blocked? | Local Controller, approval and scope-guard tests passed |
+| Does STOP terminate the live agent task? | Simulated lifecycle-monitor tests passed; live-task termination remains unverified |
+| Are security conclusions supported by reproducible evidence? | End-to-end autonomous finding and HTTP evidence tests remain incomplete |
+
+The 305/305 regression tests recorded October 26, 2026 are **local tests**, not a real-world vulnerability discovery rate.
+
 ## What is AEGIS?
 
 **AEGIS (Autonomous Security AI Platform)** is a personal software engineering project integrating local language models, an autonomous security-agent engine, and a separate execution-control layer.
