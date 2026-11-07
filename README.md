@@ -1,10 +1,19 @@
-<div align="center">
-  <img src="assets/aegis-banner.svg" width="100%" alt="AEGIS — Autonomous Security AI Platform"/>
-  <p><strong>로컬 AI · 자율 보안 에이전트 · 통제된 실행 · 검증 가능한 증거</strong></p>
-  <p><strong>진행 중 · 설계 및 검증 현황 공개</strong></p>
-  <p><strong>🇰🇷 한국어</strong> · <a href="README.en.md">🇺🇸 English</a></p>
-  <p><a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="https://github.com/rasasoe">Developer Profile</a></p>
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/aegis-banner-mobile.svg">
+  <img src="assets/aegis-banner.svg" width="100%" alt="AEGIS — 자율 보안 AI 실행 통제">
+</picture>
+
+<p align="right"><strong>한국어</strong> / <a href="README.en.md">English</a></p>
+
+# AEGIS — Autonomous Security AI Platform
+
+**진행 중 · 개인 개발 · 로컬 AI / 보안 에이전트 / 실행 승인 / 증거 추적**
+
+AI가 보안 도구를 호출할 수 있게 만드는 것보다 어려운 문제는 **AI가 권한 밖 작업을 실행하지 못하게 막고, 실제 중단되며, 결과를 검증 가능한 증거로 남기는 것**입니다.
+
+AEGIS는 로컬 모델·PentAGI·Python Controller를 결합해 **범위 검사 → 사용자 승인 → 격리 실행 → 증거 검토**를 통제하는 시스템을 개발하고 있습니다.
+
+[시스템 설계](docs/ARCHITECTURE.md) · [개발 로드맵](docs/ROADMAP.md) · [개발자 프로필](https://github.com/rasasoe)
 
 ---
 
@@ -32,10 +41,10 @@ AI가 도구를 사용할 수 있다는 사실만으로 분석이 안전하거�
 
 ## 핵심 설계
 
-<table>
-<tr><td width="50%" valign="top"><strong>🧠 Local AI + Agent Orchestration</strong><br/>Ollama의 GPT-OSS 20B, PentAGI 실행 엔진, Python Controller 및 REST/GraphQL 어댑터 연결.</td><td width="50%" valign="top"><strong>🛡️ Scope & Approval</strong><br/>명시적 대상 범위, 단기 일회성 승인, 서버 측 무승인 실행 차단.</td></tr>
-<tr><td valign="top"><strong>🔒 Isolated Execution</strong><br/>QEMU/Docker 기반 실행 격리, 요청 제한 및 독립적인 STOP 경계.</td><td valign="top"><strong>🔍 Evidence & Security Tutor</strong><br/>도구 결과와 AI 추론을 구분하고 증거·보고서 및 한국어 학습 설명을 연결.</td></tr>
-</table>
+- **로컬 AI·에이전트 연결:** Ollama, PentAGI, Python Controller 및 API 어댑터
+- **범위·승인 통제:** 허용된 대상과 일회성 승인, 무승인 요청의 서버 측 차단
+- **격리 및 종료:** QEMU/Docker 실행 경계와 감시기(실제 종료 보장 검증 중)
+- **증거·보고:** 도구 결과와 LLM 추론을 구분해 검증 가능한 결과로 남기는 구조
 
 ## 아키텍처 개요
 
