@@ -1,12 +1,7 @@
 <div align="center">
   <img src="assets/aegis-banner.svg" width="100%" alt="AEGIS — Autonomous Security AI Platform"/>
   <p><strong>Local AI · Autonomous Agents · Controlled Execution · Verifiable Evidence</strong></p>
-  <p>
-    <a href="README.md"><img alt="Korean" src="https://img.shields.io/badge/Language-%ED%95%9C%EA%B5%AD%EC%96%B4-334155?style=flat-square"/></a>
-    <a href="README.en.md"><img alt="English" src="https://img.shields.io/badge/Language-English-157C82?style=flat-square"/></a>
-    <img alt="In Development" src="https://img.shields.io/badge/Status-In%20Development-E7AA42?style=flat-square"/>
-    <img alt="Private Source" src="https://img.shields.io/badge/Source-Private-64748B?style=flat-square"/>
-  </p>
+  <p><strong>In development · Architecture and verification status</strong></p>
   <p><a href="README.md">🇰🇷 한국어</a> · <strong>🇺🇸 English</strong></p>
   <p><a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="https://github.com/rasasoe">Developer Profile</a></p>
 </div>
