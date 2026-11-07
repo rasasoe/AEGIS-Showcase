@@ -1,10 +1,19 @@
-<div align="center">
-  <img src="assets/aegis-banner.svg" width="100%" alt="AEGIS — Autonomous Security AI Platform"/>
-  <p><strong>Local AI · Autonomous Agents · Controlled Execution · Verifiable Evidence</strong></p>
-  <p><strong>In development · Architecture and verification status</strong></p>
-  <p><a href="README.md">🇰🇷 한국어</a> · <strong>🇺🇸 English</strong></p>
-  <p><a href="docs/ARCHITECTURE.md">Architecture</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="https://github.com/rasasoe">Developer Profile</a></p>
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/aegis-banner-mobile.svg">
+  <img src="assets/aegis-banner.svg" width="100%" alt="AEGIS — Autonomous Security AI Platform">
+</picture>
+
+<p align="right"><a href="README.md">한국어</a> / <strong>English</strong></p>
+
+# AEGIS — Autonomous Security AI Platform
+
+**In development · Individual engineering project · Local models / Execution approval / Evidence**
+
+Connecting a security agent to tools is only part of the problem. The harder question is **whether execution can be constrained, stopped at the running-task level, and tied to reproducible evidence**.
+
+AEGIS integrates local models, PentAGI and a separate Python Controller around **scope checking → operator approval → isolated tool execution → evidence review**.
+
+[Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Developer profile](https://github.com/rasasoe)
 
 ---
 
@@ -32,10 +41,10 @@ The system is designed around **operator approval → scope validation → isola
 
 ## Engineering Focus
 
-<table>
-<tr><td width="50%" valign="top"><strong>🧠 Local AI + Agent Orchestration</strong><br/>An Ollama-hosted GPT-OSS 20B model, PentAGI, a Python controller, and REST/GraphQL adapters.</td><td width="50%" valign="top"><strong>🛡️ Scope & Approval</strong><br/>Explicitly bounded targets, short-lived one-time approvals, and server-side checks against unapproved execution.</td></tr>
-<tr><td valign="top"><strong>🔒 Isolated Execution</strong><br/>QEMU/Docker-based separation, bounded HTTP requests, and an independent STOP boundary.</td><td valign="top"><strong>🔍 Evidence & Security Tutor</strong><br/>Distinguishing tool observations from model claims, with evidence checks, reporting, and Korean-language learning support.</td></tr>
-</table>
+- **Local model and agent orchestration:** Ollama, PentAGI, a Python Controller and API adapters
+- **Scope and approval:** Bounded targets, explicit approvals and server-side admission checks
+- **Isolated execution:** QEMU/Docker boundaries and lifecycle monitoring; live termination validation remains open
+- **Evidence and reporting:** Separate tool observations from model interpretations
 
 ## Conceptual Architecture
 
